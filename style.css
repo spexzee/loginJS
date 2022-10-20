@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300&display=swap');
+
+/* ===================== Body desgin ===================== */
+body {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+/* ===================== placeholder ===================== */
+::placeholder {
+    font-family: monospace;
+    opacity: 80%;
+    font-weight: 500;
+    word-spacing: 10px;
+}
+
+/* ===================== form design ===================== */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* ===================== input types ===================== */
+.inputs input {
+    width: 300px;
+    height: 4.5vh;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: text;
+    letter-spacing: 4px;
+}
+
+input[type="password"] {
+    margin-top: 20px !important;
+
+}
+
+/* ===================== js ===================== */
+
+.display{
+    display: none;
+}
+.active{
+    display: block;
+}
+/* ===================== button design ===================== */
+#button button {
+    width: 300px;
+    height: 4vh;
+    margin-left: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    background-color: rgb(65, 135, 220);
+    color: black;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#button button:hover {
+    background-color: darkslateblue;
+    color: white;
+}
+
+#sign-up-btn button{
+    width: 300px;
+    height: 4vh;
+    margin-left: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    background-color: rgb(65, 135, 220);
+    color: black;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 15px;
+}
+#sign-up-btn button:hover{
+    background-color: darkslateblue;
+    color: white;
+}
+/* ===================== logo ===================== */
+.logo img {
+    position: relative;
+    top: 2rem;
+    left: 3.5rem;
+    width: 12rem;
+    user-select: none;
+}
+
+/* ===================== forgrt link ===================== */
+.forget a {
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    position: relative;
+    bottom: -1rem;
+    left: 50%;
+    text-decoration: none;
+}
+
+.forget a:hover {
+    text-decoration:underline;
+    
+}
+
+/* ===================== sign-up link ===================== */
+.sign-up a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    color:red;
+    position: relative;
+    bottom: -1.5rem;
+    left: 48%;
+}
+.sign-up a:hover{
+    text-decoration:underline;
+    
+}
+/* ===================== login link ===================== */
+.login a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: red;
+    position: relative;
+    bottom: -1rem;
+    left: 74%;
+}
+.login a:hover{
+    text-decoration:underline;
+
+}
+
+/* ===================== Media Queries ===================== */
+
+@media(min-width:1600px) and (max-width:3000px){
+    html{
+        background-size: 101%;
+    }
+}
+
+@media(max-width:400px){
+    html{
+        background-size: 290%;
+    }
+}
+
+/* @media(max-width:400px){
+    .login{
+       width: 34rem;
+    }
+}
+@media(max-width:300px){
+    .login{
+       width: 31rem;
+       background-size: 140rem;
+    }
+} */
