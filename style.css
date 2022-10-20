@@ -2,7 +2,6 @@
 
 /* ===================== Body desgin ===================== */
 body {
-     background: rgb(65, 87, 114);
     background: linear-gradient(85deg, rgb(46, 133, 164) 0%, rgb(34, 226, 255) 36%, rgb(64, 184, 193) 85%);
 }
 
