@@ -2,7 +2,8 @@
 
 /* ===================== Body desgin ===================== */
 body {
-    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+     background: rgb(65, 87, 114);
+    background: linear-gradient(85deg, rgb(46, 133, 164) 0%, rgb(34, 226, 255) 36%, rgb(64, 184, 193) 85%);
 }
 
 /* ===================== placeholder ===================== */
