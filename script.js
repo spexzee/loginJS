@@ -49,20 +49,20 @@ forget.addEventListener('click', ()=>{
 
 
 //*******************  validation check  *******************
-// let username = document.querySelector('#username').Value;
-// let password = document.querySelector('#pass-word').Value;
+let username = document.querySelector('#username').Value;
+let password = document.querySelector('#pass-word').Value;
 
 //logInBtn.addEventListener('click', function run(){
 //})------> we can write like this also
 
-// logInBtn.addEventListener('click',()=> {
-// if(username=="Admin" && password=="Spexzee"){
-//     alert('Log In  Hua');
-//     return false;
-// }else{
-//     alert('Login Failed')
-// }
-// });
+logInBtn.addEventListener('click',()=> {
+if(username=="Admin" && password=="Spexzee"){
+alert('Log In  Hua');
+return false;
+}else{
+     alert('Login Failed')
+ }
+});
 
 
 
